@@ -1,4 +1,6 @@
 module.exports =
 {
-    "URI": "mongodb://localhost/business_contact"
+    "URI": "mongodb+srv://Keval44:keval@cluster0.nky6a.mongodb.net/business_contact"
+
+ 
 }
