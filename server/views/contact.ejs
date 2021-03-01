@@ -1,0 +1,98 @@
+<!-- File Name   : contactme.ejs
+    Student Name : Keval Patel
+    Student Id   : 301171202
+    Date         : 13 -02 -2021 --->
+
+
+<%- include partials/header.ejs %>
+
+
+<%- include partials/main_nav.ejs  %>
+
+
+<!--Main Content--> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<main class="container">
+<div class="jumbotron jumbotron-fluid">
+    <h1 class="display-7">Welcome to the <%= title %> page</h1>  
+</div>
+<section class="contactme">
+<div class="container">
+    <div class="contactinfo">
+        <div>
+        <h2>Let's get in touch</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fas fa-lg fa-map-marked-alt"></i></span>
+                    <span>Gujarat,India</span>
+                </li>
+                <li>
+                    <span><i class="fas fa-lg fa-envelope"></i></span>
+                    <span>keval7126@gmail.com</span>
+                </li>
+                <li>
+                    <span><i class="fas fa-lg fa-mobile"></i></span>
+                    <span>+91 9265726450</span>
+                </li>
+            </ul>
+            <ul class="sci">
+                
+            </ul>
+            <form action="" method="get">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName">First Name</label>
+      <input type="text" class="form-control" id="inputName">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputLname">Last Name</label>
+      <input type="text" class="form-control" id="inputLname">
+    </div>
+     <div class="form-group col-md-6">
+      <label for="inputEmail">Email Address</label>
+      <input type="email" class="form-control" id="inputEmail">
+    </div>
+  <div class="form-group">
+    <label for="inputNumber">Number</label>
+    <input type="text" class="form-control" id="inputNumber" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="inputMessage">Write A Message here</label>
+    <input type="text" class="form-control" id="inputMessage" >
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <label class="form-check-label" for="gridCheck">
+      </label>
+    </div>
+  </div>
+ <a type="submit" class="btn btn-primary" href="/">Submit</a>
+</form>
+        </div>
+    </div>
+     
+
+
+</div>
+</section>    
+
+
+<!--For background section start-->
+<html>
+<head>
+<style>
+body {
+background-image: url("image/bg.jpg");
+background-color: #cccccc;
+}
+
+</style>
+</head>
+</html>
+
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>

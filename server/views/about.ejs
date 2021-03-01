@@ -1,0 +1,80 @@
+<!-- File Name : about.ejs
+    Student Name : Keval Patel
+    Student Id   : 301171202
+    Date         : 13 -02 -2021 --->
+
+
+<%- include partials/header.ejs %>
+ 
+ 
+<%- include partials/main_nav.ejs  %>
+
+  
+  <!--Main Content--> 
+
+  <main class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <h1 class="display-7">Welcome to the <%= title %> page</h1>  
+    </div>
+    <section class="about-section section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                <h2 data-heading="main information">About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-img">
+                <div class="img-shape inner shadow">
+                    <img src="image/d.png" class="outer-shadow" alt="profile-pic" width="400" height="400">
+                </div>
+            </div>
+            <div class="about-info">
+                <p><span>Hi! My name is Keval Patel.</span>
+                    I am currently a student of Centennial College pursuing Fast track diploma.
+                Artificial Intelligence Fast Track Program.</p>
+                <p> I am looking forward to enhancing my knowledge and adapt new skills with learning and gaining new experience.</p>
+                <p>I have a dream to become a part of the IT industry
+                as a Software Developer.</p>
+                <a href="image/cv.pdf"  class="btn-1 outer shadow hover-in-shadow" view>Download Resume</a>
+            
+            </div>
+                <!--link to other pages-->
+                <div class="row">
+                    <div class="otherlinks">
+                       <a href="/contact" class="btn-1 outer-shadow hover-in shadow">Contact Me</a>
+                       <a href="/projects" class="btn-1 outer-shadow hover-in shadow">Project</a>
+                       <a href="/services" class="btn-1 outer-shadow hover-in shadow">Service</a>
+                    </div>
+                </div>
+                <!--link to other pages end here-->
+        </div>
+    </section>
+    </main>
+
+        
+    
+
+
+
+
+
+
+<!--For background section start-->
+<html>
+<head>
+<style>
+
+body {
+  background-image: url("image/bg1.jpg");
+  background-color: #cccccc;
+}
+
+
+</style>
+</head>
+</html>
+ 
+<%- include partials/bottom_nav.ejs %>
+
+ <%- include partials/footer.ejs %>

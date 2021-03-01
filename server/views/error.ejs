@@ -1,0 +1,20 @@
+<!-- File Name   : error.ejs
+    Student Name : Keval Patel
+    Student Id   : 301171202
+    Date         : 13 -02 -2021 --->
+
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+ <div class="container">
+
+    <h1><%= message %></h1>
+    <h2><%= error.status %></h2>
+    <pre><%= error.stack %></pre>
+ </div>
+
+<%- include partials/bottom_nav.ejs %>
+
+ <%- include partials/footer.ejs %>
